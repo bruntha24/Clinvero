@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏥 Clinvero – Smart Hospital Management System
 
-## Getting Started
+Clinvero is a modern full-stack hospital management web application built using Next.js that streamlines interactions between patients and doctors with a seamless, user-friendly experience.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Key Features
+👤 Patient Side
+🔐 OTP-based Login via Gmail using Nodemailer
+🔍 Search Doctors with Filters (specialization, availability, etc.)
+📅 Appointment Booking System
+Interactive UI with confetti animation on successful booking
+📄 Download Appointment Details as PDF using jsPDF
+👤 Personal Profile Dashboard
+View all appointments
+Access prescribed medications
+💊 Digital Prescription System
+View & download prescriptions
+Receive prescriptions via Gmail
+👨‍⚕️ Doctor Side
+📊 Dedicated Doctor Dashboard
+⏰ Manage Availability & Appointment Slots
+📋 View Patient Bookings
+💊 Prescribe Medicines Digitally
+Prescriptions sent to:
+Patient’s profile
+Patient’s Gmail
+⚙️ Tech Stack
+⚛️ Next.js – Full-stack framework
+🎨 Tailwind CSS – Modern UI styling
+✨ Animations for enhanced UX
+📧 Nodemailer – OTP & prescription emails
+📄 jsPDF – PDF generation
+🔌 Mock API – Data handling & storage
+💡 Highlights
+Clean and responsive UI with smooth animations
+Real-world hospital workflow simulation
+Secure authentication using OTP
+End-to-end patient–doctor interaction system
