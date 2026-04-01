@@ -1,24 +1,24 @@
+// app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
+import { ReactNode } from "react";
 
+// ✅ Server-side metadata
 export const metadata: Metadata = {
-  title: "Doctor App",
-  description: "Healthcare Appointment UI",
+  title: "Clinvero - Always with you, for your healthcare",
+  description: "Healthcare Appointment",
+  icons: {
+    icon: "/icon.jpg",
+  },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// ✅ RootLayout remains a pure server component
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
         {/* Google Fonts */}
-        <link
-          rel="preconnect"
-          href="https://fonts.googleapis.com"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -34,8 +34,9 @@ export default function RootLayout({
           }
         `}</style>
       </head>
+
       <body className="bg-gray-100 flex justify-center">
-        <div className="w-full max-w-[1420px] min-h-screen bg-white shadow-sm">
+        <div className="w-full max-w-[1440px] min-h-screen bg-white shadow-sm relative">
           {children}
         </div>
       </body>

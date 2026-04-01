@@ -19,9 +19,16 @@ export const ROUTES = {
   OTP: "/otp",
 };
 
-// Features for hero section (optional, if you want them centralized)
+// Features for hero section
 export const FEATURES = [
   { icon: "Heart", label: "Trusted Care", desc: "500+ verified doctors" },
   { icon: "Shield", label: "Secure & Private", desc: "HIPAA compliant" },
   { icon: "Clock", label: "24/7 Available", desc: "Book anytime" },
+];
+
+// 🌞 Added for Appointment Page
+export const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+export const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
 ];
